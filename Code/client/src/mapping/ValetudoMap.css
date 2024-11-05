@@ -1,0 +1,42 @@
+.ValetudoMap {
+    text-align: center;
+  }
+  
+  .ValetudoMap-logo {
+    height: 10vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .ValetudoMap-logo {
+      animation: ValetudoMap-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .ValetudoMap-header {
+    background-color: #282c34;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .ValetudoMap-link {
+    color: #61dafb;
+  }
+  
+  @keyframes ValetudoMap-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+   
+  #printButton {
+    background-color: 'green';
+  }
